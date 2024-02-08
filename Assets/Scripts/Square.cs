@@ -14,6 +14,7 @@ public class Square : MonoBehaviour
     private void OnMouseDown()
     {
         rb.velocity = new Vector2(speed, rb.velocity.y);
+        rb.velocity = new Vector2(speed, rb.velocity.x);
     }
     private void Update()
     {
