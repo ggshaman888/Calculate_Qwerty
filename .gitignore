@@ -6,3 +6,4 @@ obj/
 Build/
 Build_WebGL/
 Build_linux/
+BuildAndroid/
