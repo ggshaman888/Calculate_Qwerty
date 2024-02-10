@@ -41,3 +41,6 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: basket
+    uniqueID: 1988420129
+    locked: 0

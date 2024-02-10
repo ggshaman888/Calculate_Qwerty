@@ -16,14 +16,29 @@ public class BasketCalc : MonoBehaviour
             count++;
             txt_calc.text = count.ToString();
         }
+        if (collision.name.IndexOf("Кусок_10") == 0)
+        {
+            Debug.Log("+1");
+            count = count + 10;
+            txt_calc.text = count.ToString();
+        }
 
     }
 
     private void OnTriggerExit2D(Collider2D collision)
     {
-        //        Debug.Log(collision.name);
-        count--;
-        txt_calc.text = count.ToString();
+        if (collision.name.IndexOf("Cut_1") == 0)
+        {
+            Debug.Log("-1");
+            count--;
+            txt_calc.text = count.ToString();
+        }
+        if (collision.name.IndexOf("Кусок_10") == 0)
+        {
+            Debug.Log("+1");
+            count = count - 10;
+            txt_calc.text = count.ToString();
+        }
     }
     // Start is called before the first frame update
     void Start()

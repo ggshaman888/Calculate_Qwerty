@@ -66,6 +66,8 @@
     <Compile Include="Assets\Scripts\BasketCalc.cs" />
     <Compile Include="Assets\Scripts\Square.cs" />
     <Compile Include="Assets\Scripts\mouse.cs" />
+    <Compile Include="Assets\Scripts\cut_phisics.cs" />
+    <Compile Include="Assets\Scripts\Sun10.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
