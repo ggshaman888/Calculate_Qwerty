@@ -3,3 +3,6 @@ Logs/
 Library/
 obj/
 .vs/
+Build/
+Build_WebGL/
+Build_linux/
